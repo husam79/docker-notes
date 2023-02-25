@@ -5,7 +5,7 @@ Common Docker's commands and notes
 |#|Command|Description|
 |---|---|---|
 |1|docker ps|displays all running containers|
-|||If the parameter -a is provided, then it will display all container running and stopped|
+|||If the parameter *-a* is provided, then it will display all running and stopped containers.|
 |2|docker run -d -p [host-port]:[container-port] --name [container-name] [img-name]|running a container with a specified [img-name]|
 |||-d: detach mode|
 |||-p [host-port]:[container-port] link a host port with a container port|
