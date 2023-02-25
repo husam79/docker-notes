@@ -1,7 +1,7 @@
 # Docker Commands & Notes
 Common Docker's commands and notes
 
-## Commands
+## docker commands
 |#|Command|Description|
 |---|---|---|
 |1|docker ps|displays all running containers|
@@ -15,6 +15,11 @@ Common Docker's commands and notes
 |4|docker stop [container-id OR container_name]| Stopping a running container with specified id or name. |
 |5|docker images| Displays all available images |
 
+## docker composer commands
+|#|Command|Description|
+|---|---|---|
+|1|docker-compose -f [name-of-yaml-file] up -d|create all services that located in the yaml file in detach mode (it will create a network also)|
+|2|docker-compose -f [name-of-yaml-file] down|stop all services that located in the yaml file (including the network also)|
 
 ## Notes
 - The difference between run and start commands is that: the run command create a new container from an image, whereas the start container runs a previously stopped container.
