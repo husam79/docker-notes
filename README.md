@@ -20,6 +20,7 @@ Common Docker's commands and notes
 |||-it: interactive mode|
 |8|docker network ls| List all available networks in docker |
 |9|docker network create [network-name]| creating a new network named “network-name” |
+|10|docker build -t [new-img-name]:[tag] .| Building a new docker image based on the Dockerfile founded in the currenc directory |
 
 ## docker composer commands
 |#|Command|Description|
