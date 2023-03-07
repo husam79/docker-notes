@@ -18,13 +18,13 @@ running a container with a specified [img-name]:[tag]
   - --name [container-name]: you can optionally specify a name for this container, to refer to it instead of the container id.
   - [img-name]: required, the name of the image like (nginx, ... etc)
   - [tag]: optional, represents the version number of the image, if omitted it will be considered 'latest'
-
+  
 
 ```
 docker start [container-id OR container_name]
 ```
 Starting a previously stopped container with specified id or name.
-
+  
 
 ```
 docker stop [container-id OR container_name]
