@@ -28,12 +28,19 @@ docker stop [container-id OR container_name]
 ```
 Stopping a running container with specified id or name.
 
+```
+docker images
+```
+Displays all available images
+
+```
+docker logs [container-id OR container-name] -f
+```
+Displaying logs of the specified container, if the **-f** parameter is provided it will logs in streaming mode
+
 ## docker commands
 |#|Command|Description|
 |---|---|---|
-
-|5|docker images| Displays all available images |
-|6|docker logs [container-id OR container-name] -f| view logs of the specified container, if the **-f** parameter is provided it will logs in streaming mode |
 |7|docker exec -it [container-id OR container-name] /bin/bash (OR /bin/sh)| Allows to connect to the specified container as root user |
 |||-it: interactive mode|
 |8|docker network ls| List all available networks in docker |
