@@ -20,7 +20,7 @@ Common Docker's commands and notes
 |||-it: interactive mode|
 |8|docker network ls| List all available networks in docker |
 |9|docker network create [network-name]| creating a new network named “network-name” |
-|10|docker network connect [network-name] [container-name OR container-id] | Assigning a network to an existing container|
+|10|docker network connect [network-name] [container-name OR container-id] | Assigning a network to an existing container **NOTE:** you can assign a network directly to an container when first run it using the following command: docker run --network [network-name] [image-name]|
 |11|docker build -t [new-img-name]:[tag] .| Building a new docker image based on the Dockerfile founded in the currenc directory |
 
 ## docker composer commands
