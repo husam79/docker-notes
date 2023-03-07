@@ -8,6 +8,7 @@ docker ps
   - displays all running containers.
   - If the parameter **-a** is provided, then it will display all running and stopped containers.
 <br/>
+
 ```
 docker run -d -p [host-port]:[container-port] --name [container-name] [img-name]:[tag]
 ```
@@ -19,6 +20,7 @@ running a container with a specified [img-name]:[tag]
   - [tag]: optional, represents the version number of the image, if omitted it will be considered 'latest'
   
 <br/>
+
 ```
 docker start [container-id OR container_name]
 ```
