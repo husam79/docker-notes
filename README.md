@@ -26,24 +26,28 @@ docker start [container-id OR container_name]
 ```
 Starting a previously stopped container with specified id or name.
   
+<br/>
 
 ```
 docker stop [container-id OR container_name]
 ```
 Stopping a running container with specified id or name.
 
+<br/>
 
 ```
 docker images
 ```
 Displays all available images
 
+<br/>
 
 ```
 docker logs [container-id OR container-name] -f
 ```
 Displaying logs of the specified container, if the **-f** parameter is provided it will logs in streaming mode
 
+<br/>
 
 ## docker commands
 |#|Command|Description|
