@@ -5,7 +5,18 @@ Common Docker's commands and notes
 ```
 docker ps
 ```
-  - displays all running containers
+  - displays all running containers.
+  - If the parameter **-a** is provided, then it will display all running and stopped containers.
+
+```
+docker run -d -p [host-port]:[container-port] --name [container-name] [img-name]:[tag]
+```
+  - running a container with a specified [img-name]:[tag]
+  - -d: detach mode.
+  - -p [host-port]:[container-port] link a host port with a container port
+  - --name [container-name]: you can optionally specify a name for this container, to refer to it instead of the container id.
+  - [img-name]: required, the name of the image like (nginx, ... etc)
+  - [tag]: optional, represents the version number of the image, if omitted it will be considered 'latest'
   
 ## docker commands
 |#|Command|Description|
