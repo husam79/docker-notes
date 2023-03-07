@@ -69,3 +69,6 @@ Displaying logs of the specified container, if the **-f** parameter is provided 
 - The difference between run and start commands is that: the run command create a new container from an image, whereas the start container runs a previously stopped container.
 - Docker images is a set of layers. The lower layer is the operating system layer (normally it is linux alpain because it is lightweight),  and the top most one is the app layer. And there are a number of other layers (service layers).
 - All the data in the container will lost, if the container is restarted.
+
+## Linux Commands
+- sudo usermod -a -G examplegroup exampleusername //adding an exampleusername to a group: examplegroup
