@@ -78,3 +78,4 @@ Get the ip address of the [container_name_or_id]
 
 ## Linux Commands
 - sudo usermod -a -G examplegroup exampleusername //adding an exampleusername to a group: examplegroup
+- rm -rf dir1 //to remove a directory with all content inside it
