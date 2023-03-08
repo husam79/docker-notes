@@ -49,6 +49,12 @@ Displaying logs of the specified container, if the **-f** parameter is provided 
 
 <br/>
 
+```
+docker inspect \
+  -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' [container_name_or_id]
+```
+Get the ip address of the [container_name_or_id]
+
 ## docker commands
 |#|Command|Description|
 |---|---|---|
